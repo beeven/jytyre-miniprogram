@@ -1,0 +1,90 @@
+/* pages/userConsole/userConsole.wxss */
+page {
+    height: 100%;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background: #000000;
+    color: white;
+}
+
+.avatar {
+    margin-top: 150rpx;
+    background: radial-gradient(ellipse at center, rgba(255,255,255,1) 0%, rgba(0,0,0,1) 60%);
+    height: 500rpx;
+    width: 500rpx;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar image {
+    width: 300rpx;
+    height: 300rpx;
+    border-radius: 100%;
+    
+    background: white;
+}
+
+
+.username {
+    /* margin-top: 50rpx; */
+    font-size: 1.5rem;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80rpx;
+    width: 100%;
+}
+
+.phone view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100rpx;
+    margin-right: 100rpx;
+    width: 100%;
+}
+
+.auth-button {
+    background-color: rgba(182, 25, 25, 0.8);
+    color: white;
+    border-radius: 100rpx;
+}
+
+.phone text.iconfont {
+    font-size: 1.5rem;
+    background-color: rgba(182, 25, 25, 0.8);
+    margin-right: 30rpx;
+    border-radius: 100%;
+    color: white;
+    width: 100rpx;
+    height: 100rpx;
+    text-align: center;
+    line-height: 100rpx;
+}
+.phone input {
+    flex: 1 1;
+    border-bottom: 1rpx solid black;
+}
+
+.save-button, .edit-button {
+    margin-top: 100rpx;
+    width: 100%;
+    
+}
+
+.save-button button, .edit-button button {
+    display: block;
+    background: rgba(182, 25, 25, 0.8);
+    color: white;
+    margin-left: 60rpx;
+    margin-right: 60rpx;
+    border-radius: 100rpx;
+}

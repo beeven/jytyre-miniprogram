@@ -1,0 +1,14 @@
+page {
+    height: 100%;
+    width: 100%;
+    background: #333333;
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    height: 100%;
+    width: 100%;
+}
